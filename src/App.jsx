@@ -104,7 +104,7 @@ AOS.init();
 
                     ">
 
-<button className='flex justify-end'>
+<button className='flex justify-end md:hidden'>
   <img src={x} alt="" 
        className='x-color 
                   mobile-x-button 
