@@ -1,0 +1,210 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.symbols {
+  color: #00E7FF;
+}
+
+.font-courier {
+  font-family: 'Courier Prime', monospace;
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+.sidebar {
+  background-color: #242424;
+  opacity: 97%;
+  backdrop-filter: blur(70%);
+}
+
+.vl {
+  border-left: 5px solid cyan;
+}
+
+.logo-color {
+  color: #00E7FF;
+  color: rgba(0, 231, 255, 1);
+}
+
+.social-media-animation {
+  transition: 0.3s;
+  filter: brightness(85%);
+}
+
+.social-media-animation:hover {
+  transform: translateY(-20%);
+  filter: invert(53%) sepia(24%) saturate(5290%) hue-rotate(150deg) brightness(97%) contrast(101%);
+
+}
+
+.x-color {
+  filter: invert(53%) sepia(24%) saturate(5290%) hue-rotate(150deg) brightness(97%) contrast(101%);
+
+}
+
+.russel-email {
+  transform: rotate(90deg);
+  transition: 0.3s;
+  filter: brightness(100%);
+}
+
+.russel-email:hover {
+  transform: translateY(-30%) rotate(90deg);
+  color: #00b3c7;
+
+}
+
+.tab {
+  float: left;
+  border: 1px solid #00E7FF;
+  background-color: #00E7FF;
+  width: 30%;
+  height: 300px;
+}
+
+#tab-button {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#tab-button:hover {
+  background-color: #00E7FF;
+  color: #242424;
+}
+
+#tab-button.active {
+  background-color: #00E7FF;
+}
+
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  border: 1px solid #00E7FF;
+  width: 70%;
+  border-left: none;
+  height: 300px;
+}
+
+
+.link-underline-about {
+  background-image: linear-gradient(transparent, transparent), linear-gradient(to right,#00b3c7, #00b3c7);
+  background-size: 0 1px;
+  background-position: 20% 70%;
+  background-repeat: no-repeat;
+  transition: .1s ease-in-out;
+}
+
+
+.link-underline-about:hover {
+  background-size: 28% 2px;
+  background-position: 25% 70%;
+  color: #00b3c7;
+}
+
+.link-underline-certification {
+  background-image: linear-gradient(transparent, transparent), linear-gradient(to right,#00b3c7, #00b3c7);
+  background-size: 0 1px;
+  background-position: 20% 70%;
+  background-repeat: no-repeat;
+  transition: .1s ease-in-out;
+}
+
+
+.link-underline-certification:hover {
+  background-size: 73% 2px;
+  background-position: 70% 70%;
+  color: #00b3c7;
+  border-color: #00b3c7;
+}
+
+.link-underline-projects {
+  background-image: linear-gradient(transparent, transparent), linear-gradient(to right,#00b3c7, #00b3c7);
+  background-size: 0 1px;
+  background-position: 20% 70%;
+  background-repeat: no-repeat;
+  transition: .1s ease-in-out;
+}
+
+
+.link-underline-projects:hover {
+  background-size: 45% 2px;
+  background-position: 32% 70%;
+  color: #00b3c7;
+  border-color: #00b3c7;
+}
+
+.link-underline-technologies {
+  background-image: linear-gradient(transparent, transparent), linear-gradient(to right,#00b3c7, #00b3c7);
+  background-size: 0 1px;
+  background-position: 20% 70%;
+  background-repeat: no-repeat;
+  transition: .1s ease-in-out;
+}
+
+
+.link-underline-technologies:hover {
+  background-size: 65% 2px;
+  background-position: 50% 70%;
+  color: #00b3c7;
+  border-color: #00b3c7;
+}
+
+.link-underline-contact {
+  background-image: linear-gradient(transparent, transparent), linear-gradient(to left,#00b3c7, #00b3c7);
+  background-size: 0 1px;
+  background-position: 20% 70%;
+  background-repeat: no-repeat;
+  transition: .1s ease-in-out;
+}
+
+
+.link-underline-contact:hover {
+  background-size: 38% 2px;
+  background-position: 30% 70%;
+  color: #00b3c7;
+  border-color: #00b3c7;
+}
+
+.imagebg {
+filter: invert(0%) sepia(20%) saturate(70%) hue-rotate(180deg) brightness(100%) contrast(70%);
+transition: .5s;
+}
+
+.imagebg:hover {
+  filter: none;
+  transform: scale(115%);
+}
+
+@media (max-width: 1126px){
+#abouthr::after{
+  padding-left: 200px;
+}
+
+  
+}
