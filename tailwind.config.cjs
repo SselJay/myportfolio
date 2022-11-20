@@ -7,8 +7,8 @@ module.exports = {
   theme: {
     extend: {
       animation: {
-    fadeIn: "fadeIn 1s ease-in forwards",
-    shake: "shake 0.82s cubic-bezier(.36,.07,.19,.97) infinite"
+    fadeIn: "fadeIn .2s ease-in forwards",
+    shake: "shake 0.82s cubic-bezier(.36,.07,.19,.97) forwards"
   },
   animationDelay: {
       100: "100ms",

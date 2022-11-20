@@ -122,7 +122,7 @@ export default function Certifications() {
                         ">
 
 
-            <div id='htmlcss' className={tab === 1 ? "block" : "hidden"}>
+            <div id='htmlcss' className={tab === 1 ? "block animate-fadeIn" : "hidden"}>
                 <h1 className='text-xl font-light flex gap-2 lg:gap-5'> 
                     <span className='symbols 
                                   text-sm
@@ -186,7 +186,7 @@ export default function Certifications() {
 
 
 
-            <div id='jscript' className={tab === 2 ? "block" : "hidden"}>
+            <div id='jscript' className={tab === 2 ? "block animate-fadeIn " : "hidden"}>
             <h1 className='text-xl font-light flex gap-5'> 
                     <span className='symbols
                                   text-sm
@@ -261,7 +261,7 @@ export default function Certifications() {
 
 
 
-            <div id='jscript' className={tab === 3 ? "block" : "hidden"}>
+            <div id='jscript' className={tab === 3 ? "block animate-fadeIn" : "hidden"}>
             <h1 className=' font-light flex gap-5
                                   text-sm
                                   lg:text-xl'> 
