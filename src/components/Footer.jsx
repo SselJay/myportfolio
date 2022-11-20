@@ -22,7 +22,7 @@ export default function Footer() {
                     ">
 
 
-    2022 • Built by Russel Jay Buan <br/> Inspired by: <span><a className='hover:text-green-300 transition' href="https://brittanychiang.com/" target={'https://brittanychiang.com/'}>Brittany Chiang</a> </span> 
+    2022 • Designed and Built by Russel Jay Buan <br/> Inspired by: <span><a className='hover:text-green-300 transition' href="https://brittanychiang.com/" target={'https://brittanychiang.com/'}>Brittany Chiang</a> </span> 
     </h1>
 
     </div>
