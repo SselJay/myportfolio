@@ -7,9 +7,6 @@ export default function About() {
   AOS.init();
   return (
     <div id='about' 
-         data-aos="fade-right"
-         data-aos-delay="200" 
-         data-aos-duration='1400' 
          className=" 
                     mt-10 
                     mb-16 
@@ -26,7 +23,10 @@ export default function About() {
                     mx-auto
                     ">
       
-      <div className='flex 
+      <div data-aos="fade-right"
+           data-aos-delay="200" 
+           data-aos-duration='800'
+           className='flex 
                       gap-4
                       justify-center
                       
@@ -74,7 +74,10 @@ export default function About() {
                         pl-0
                         lg:pl-10
                         '>
-            <div className='mt-8
+            <div data-aos="fade-right"
+             data-aos-delay="400" 
+             data-aos-duration='1400'
+             className='mt-8
                             '>
               <div className=" block
                               rounded-lg 
@@ -105,7 +108,10 @@ export default function About() {
             </div>
 
             <div>    
-                <p className=' 
+                <p data-aos="fade-left"
+             data-aos-delay="500" 
+             data-aos-duration='1100'
+             className=' 
                               font-poppins 
                               font-light
                               mt-4
@@ -121,7 +127,10 @@ export default function About() {
                 Hi! Russel here, 24. I am generally interested in designs. I majored in computer networks but unsure of my interests before then fell in love with graphics designing. 
                 
                 </p>
-                <p className=' 
+                <p data-aos="fade-left"
+             data-aos-delay="600" 
+             data-aos-duration='1100'
+             className=' 
                               font-poppins
                               font-light 
                               mt-7 
@@ -136,7 +145,10 @@ export default function About() {
                 Recently, I managed to understand and learn more about the industry of programming. So I've decided to learn programming and surprisingly, I find it really interesting like I've never felt this excited and ecstatic before, it's a bit weird of me since I never liked programming before but now I enjoy the struggles of it, the solving and collaborations. Suddenly, I fell in love with programming especially when I combine my passion in graphics design with it. 
 
                 </p>
-                <p className=' 
+                <p data-aos="fade-left"
+             data-aos-delay="650" 
+             data-aos-duration='1100'
+             className=' 
                               font-poppins 
                               font-light
                               mt-7 
@@ -148,7 +160,7 @@ export default function About() {
                               lg:text-lg
                               '>
 
-                Right now I am learning different frameworks, backend and frontend. Basically improving my skillset and I'm excited for what's next! You can check out the technologies I am currently utilizing below! 😊 
+                Right now I am learning different frameworks, backend and frontend. Basically improving my skillset and I'm excited for what's next! You can check out the technologies I am currently utilizing below!
 
                 </p>
                 

@@ -213,8 +213,8 @@ My part for this project is basically the front-end development. I chose white a
                           
                           '>
                </video>
-               <a href="https://sseljay.github.io/" 
-     target={'https://sseljay.github.io/'}>
+               <a href="https://sseljay.github.io/onlypans-makati/" 
+     target={'https://sseljay.github.io/onlypans-makati/'}>
 
     <div  data-aos="fade-right"
             data-aos-delay="200" 
@@ -258,8 +258,8 @@ My part for this project is basically the front-end development. I chose white a
 
 
 
-  <a href="https://sseljay.github.io/" 
-     target={'https://sseljay.github.io/'}>
+  <a href="https://sseljay.github.io/onlypans-makati/" 
+     target={'https://sseljay.github.io/onlypans-makati/'}>
 
     <div  data-aos="fade-right"
             data-aos-delay="200" 

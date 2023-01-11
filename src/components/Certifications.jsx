@@ -4,6 +4,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 export default function Certifications() {
+
     const [tab, setTab] = useState(1);
 
         const toggleTab = (index) => {
@@ -11,10 +12,7 @@ export default function Certifications() {
         }
         AOS.init();
   return (
-    <div id='certifications' 
-         data-aos="fade-up"
-         data-aos-delay="200" 
-         data-aos-duration='1400' 
+    <div id='certifications'
          className=" 
                     mt-10 
                     mb-36 
@@ -28,7 +26,10 @@ export default function Certifications() {
                     mx-auto
                     ">
 
-        <div className='flex 
+        <div data-aos="fade-right"
+         data-aos-delay="200" 
+         data-aos-duration='1200'
+         className='flex 
                     gap-4
                     justify-center
                     pb-10
@@ -78,7 +79,10 @@ export default function Certifications() {
                       ">
 
 
-        <div className="flex
+        <div data-aos="fade-right"
+         data-aos-delay="400" 
+         data-aos-duration='1200'
+         className="flex
                         flex-row 
                         lg:flex-col 
                         border-none
@@ -113,7 +117,10 @@ export default function Certifications() {
                     </button>
         </div>
 
-        <div className="font-poppins 
+        <div data-aos="fade-up"
+         data-aos-delay="400" 
+         data-aos-duration='1200'
+         className="font-poppins 
                         
                         flex-1 
                         lg:pr-16
@@ -180,9 +187,6 @@ export default function Certifications() {
                 Understanding of different programming languages syntax
                 </p>
             </div>
-
-
-
 
 
 
