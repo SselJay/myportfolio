@@ -124,7 +124,7 @@ export default function About() {
                               lg:text-lg
                               '>
                 
-                Hi! Russel here, 24. I am generally interested in designs. I majored in computer networks but unsure of my interests before then fell in love with graphics designing. 
+                Hi! Russel here, 25. I am generally interested in designs. I majored in computer networks but unsure of my interests before, then fell in love with graphics designing. So I took an online training in the year of 2021 and obtained my Certification on Adobe Illustrator. 
                 
                 </p>
                 <p data-aos="fade-left"
@@ -142,7 +142,7 @@ export default function About() {
                               lg:text-lg
                               '>
 
-                Recently, I managed to understand and learn more about the industry of programming. So I've decided to learn programming and surprisingly, I find it really interesting like I've never felt this excited and ecstatic before, it's a bit weird of me since I never liked programming before but now I enjoy the struggles of it, the solving and collaborations. Suddenly, I fell in love with programming especially when I combine my passion in graphics design with it. 
+                In the year of 2022, I also took a Full Stack Web Development boot camp from Kodego where I was awarded as one of the top students in Canvas activities and was awarded with best capstone project 2. 
 
                 </p>
                 <p data-aos="fade-left"
@@ -160,7 +160,7 @@ export default function About() {
                               lg:text-lg
                               '>
 
-                Right now I am learning different frameworks, backend and frontend. Basically improving my skillset and I'm excited for what's next! You can check out the technologies I am currently utilizing below!
+                Today, I am currently looking for opportunities to improve my experiences such as my communication skills, interpersonal skills, social and more.
 
                 </p>
                 
