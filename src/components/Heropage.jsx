@@ -66,10 +66,10 @@ export default function Heropage() {
                     font-semibold 
                     text-center 
                     sm:text-start 
-                    text-3xl 
-                    sm:text-3xl 
-                    md:text-4xl 
-                    lg:text-6xl 
+                    text-2xl 
+                    sm:text-2xl 
+                    md:text-2xl 
+                    lg:text-3xl 
                     text-green-50  
                     mb-7 
                     opacity-70
