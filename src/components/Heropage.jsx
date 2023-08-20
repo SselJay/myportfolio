@@ -76,7 +76,7 @@ export default function Heropage() {
                     sm:pl-5
                     '>
 
-                    a Web Developer.
+                    Web Developer / Graphic Designer.
       </p>
 
       <p data-aos="fade-down"
